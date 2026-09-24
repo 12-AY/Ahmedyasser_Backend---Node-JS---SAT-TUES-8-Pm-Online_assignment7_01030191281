@@ -1,0 +1,19 @@
+{
+  "name": "assignment8-books-mongodb",
+  "version": "1.0.0",
+  "description": "Express.js + MongoDB native driver API for books/authors/logs (Assignment 8)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
